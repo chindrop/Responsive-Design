@@ -1,5 +1,5 @@
 {
-  "name": "esponsive-Design",
+  "name": "Responsive-Design",
   "version": "1.0.0",
   "description": "This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc",
   "main": "index.html",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bluette1/design-teardown.git"
+    "url": "git+https://github.com/chindrop/Responsive-Design.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bluette1/design-teardown/issues"
+    "url": "https://github.com/chindrop/Responsive-Design/issues"
   },
-  "homepage": "https://github.com/Bluette1/design-teardown#readme"
+  "homepage": "https://github.com/chindrop/Responsive-Design#readme"
 }
