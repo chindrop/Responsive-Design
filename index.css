@@ -1,0 +1,56 @@
+/* Set the defaults */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    overflow-x: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1.125em;
+  }
+
+  .header-1 {
+    /* color:  rgba(255, 255, 255, 0.6); */
+    background-color: rgb(17, 17, 17);
+    max-height: 2em;
+    align-content: center;
+    font-size: 0.8125em;
+    font-weight: 500;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.left-section li, .right-section li {
+    display: inline;
+    padding-right: 5px;
+}
+
+.left-section li a, .right-section li a {
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.6);
+}
+
+.left-section li a:hover, .right-section li a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+ul.left-section.items-left {
+    margin-left: -1.55%;
+}
+
+ul.right-section.items-right {
+    margin-right: 1.55%;
+}
+
