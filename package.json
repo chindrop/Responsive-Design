@@ -1,13 +1,13 @@
 {
-  "name": "Responsive-Design",
+  "name": "esponsive-Design",
   "version": "1.0.0",
   "description": "This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc",
   "main": "index.html",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "stylelint": "^13.2.0",
     "stylelint-config-recommended": "^3.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "lint": " npx stylelint ./index.css",
     "lint-fix": "npx stylelint --fix index.css",
