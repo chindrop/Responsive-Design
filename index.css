@@ -18,9 +18,9 @@ body {
   font-weight: 400;
   line-height: 1.125em;
 }
+/* First header styling */
 
 .header-1 {
-  /* color:  rgba(255, 255, 255, 0.6); */
   background-color: rgb(17, 17, 17);
   max-height: 2em;
   align-content: center;
@@ -55,4 +55,55 @@ ul.left-section.items-left {
 
 ul.right-section.items-right {
   margin-right: 1.55%;
+}
+
+/* Second header styling */
+.nav-bar {
+  /* background-color: rgb(17, 17, 17); */
+  max-height: 4em;
+  align-content: center;
+  font-size: 0.8125em;
+  font-weight: 500;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.nav-bar-ul li,
+.search-bar-ul li {
+  display: inline-block;
+  padding-right: 5px;
+
+}
+.nav-bar {
+  position: -webkit-sticky;;
+}
+
+.nav-bar-ul {
+  padding-left: 1.55%;
+}
+.nav-bar-ul li {
+  padding-top: 2%;
+}
+
+.join-btn {
+  text-transform: uppercase;
+  color: #f42
+}
+
+.search-bar-ul img{
+  display: inline-block;
+  width: 125px;
+  vertical-align: middle;
+}
+
+.fixed-header {
+  background-color: yellow;
+  max-height: 2em;
+  padding: 0.5% 1.55% ;
+  font-size: 0.8125em;
+  font-weight: 500;
+  position: -webkit-sticky;
 }
