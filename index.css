@@ -37,6 +37,12 @@ body {
   padding-right: 5px;
 }
 
+.nav-bar-ul a,
+.search-bar a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .left-section li a,
 .right-section li a {
   text-decoration: none;
@@ -55,4 +61,43 @@ ul.left-section.items-left {
 
 ul.right-section.items-right {
   margin-right: 1.55%;
+}
+
+.nav-bar {
+  background-color: #777;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 50px;
+  align-content: center;
+  list-style: none;
+}
+
+.nav-bar-ul,
+.search-bar {
+  display: flex;
+  /* list-style: none;
+  justify-content: flex-start; */
+}
+
+.nav-bar-ul li,
+.search-bar li {
+  /* display: inline; */
+  padding-right: 5px;
+}
+
+.search-bar {
+  font-size: 0.8125em;
+}
+
+/* .searh-bar li {
+  width: 50%;
+  margin-left: 0;
+} */
+
+.head-background {
+  background-image: url(image/Twitter-CEO-Jack-Dorsey.jpg);
+  /* background-repeat: no-repeat; */
+  width: 889px;
+  height: 319px;
 }
