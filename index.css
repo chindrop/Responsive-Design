@@ -261,6 +261,7 @@ ul.right-section.items-right {
   background-size: cover;
   z-index: 1;
   display: grid;
+  margin-left: 2%;
 }
 
 .small-right-1 h2 a {
@@ -285,6 +286,8 @@ ul.right-section.items-right {
   background: linear-gradient(180deg, rgba(153, 149, 149, 0.53), rgba(0, 0, 0, 0.9)), url(./images/054_renault_morphoz-1-796x447.jpg) 50% 100% no-repeat;
   background-size: cover;
   z-index: 1;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 
 .small-right-2 h5 {

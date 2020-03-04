@@ -2,7 +2,7 @@
 
 This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc
 
-# design-teardown ([The Odin Project]( https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design))
+# Responsive-Design ([The Odin Project]( https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design))
 
 
 ![demopage](./images/screenshot.png)
