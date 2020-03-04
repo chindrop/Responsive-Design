@@ -344,11 +344,66 @@ ul.right-section.items-right {
   margin-top: 70px;
 }
 
-.image-central {
-
- 
-
-
+/* Styling for the latest news section */
+.pics-latest-news {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  height: 500px;
+  color: grey;
+  padding: 0.25% 0.5%;
 }
 
+.latest-news-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: aqua;
+  background:  url(./images/growth-tips.png) 50% 100% no-repeat;
+}
+
+
+.latest-news-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: red;
+}
+
+.latest-news-3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: purple;
+}
+
+.latest-news-4 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  background-color: gray;
+}
+
+.latest-news-5 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: gray;
+}
+
+
+.latest-news-6 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: purple;
+}
+
+
+.latest-news-7 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: aqua;
+}
+
+.latest-news-8 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  background-color: red;
+}
 
