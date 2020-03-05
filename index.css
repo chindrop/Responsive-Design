@@ -74,10 +74,11 @@ ul.right-section.items-right {
 .search-bar-ul li {
   display: inline-block;
   padding-right: 0.6250em;
-
 }
+
 .nav-bar {
   position: sticky;
+  top: 0;
 }
 
 .nav-bar-ul {
@@ -87,9 +88,9 @@ ul.right-section.items-right {
   padding-top: 2.75%;
 }
 
-.search-bar-ul  {
+.search-bar-ul {
   display: inline-block;
-  border-left: 1px solid #f1eeee;;
+  border-left: 1px solid #f1eeee;
   height: 4em;
   padding-left: 2%;
   width: 33%;
@@ -407,3 +408,57 @@ ul.right-section.items-right {
   background-color: red;
 }
 
+.footer-copyright {
+  background-color: #000;
+  color: #aaa;
+  height: 100px;
+  font-size: 13px;
+}
+
+.footer-links {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: #131313;
+  height: 160px;
+  margin: 0 auto;
+
+}
+
+.social-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu-links {
+  display: flex;
+  float: row wrap;
+  margin-top: 1.5em;
+}
+
+.social-links a {
+  border: 1px solid #4b4a4a;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: #4b4a4a;
+  font-size: 1.5em;
+  list-style: none;
+  color: white;
+  padding: 10px;
+}
+
+.social-links li {
+  padding-right: 8px;
+}
+
+.fa-bar {
+  display: none;
+}
+
+.fa-heart {
+  color: red;
+}
