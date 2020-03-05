@@ -341,7 +341,7 @@ ul.right-section.items-right {
 }
 
 .latest-news-title {
-  font-size: 180%;
+  font-size: 150%;
 }
 
 .latest-news-title a {
@@ -484,7 +484,7 @@ ul.right-section.items-right {
 }
 
 .latest-funds-left {
-  font-size: 180%;
+  font-size: 150%;
 }
 
 .latest-funds-right{
@@ -497,6 +497,7 @@ ul.right-section.items-right {
 .latest-funds-right li {
   display: inline-block;
   padding-right: 2%;
+  padding-left: 1%;
 }
 .latest-funds-right li:not(:last-child)  {
   border-right: 1px solid rgb(255, 68, 34);
@@ -516,7 +517,7 @@ ul.right-section.items-right {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 250px;
-  padding-top: 1.5%;
+  margin-top: -1%;
 }
 
 .latest-funds-1 {
@@ -623,6 +624,7 @@ ul.right-section.items-right {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
 .latest-funds-hr {
   margin-top: 8%;
   color: rgba(255,68,34,.03);
@@ -644,4 +646,191 @@ ul.right-section.items-right {
 }
 .social-media-last-span {
   color: rgb(170, 170, 170);
+}
+
+/* Styling for the apps gear tech section*/
+
+.apps-gear-tech-title {
+  display: flex;
+  padding: 5% 5%;
+}
+
+.apps-gear-tech-title h2 {
+  font-size: 150%;
+  flex-basis: 33.333333%;
+}
+
+.apps-gear-tech-title h2 a {
+  text-decoration: none;
+  color: rgb(255, 68, 34); 
+}
+
+.apps-gear-tech-title h2 a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0); 
+}
+
+
+.apps-gear-tech, .latest {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 276px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: -4.5%;
+}
+
+.apps {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background: linear-gradient(180deg, rgba(248, 247, 247, 0.0) , rgba(0, 0, 0, 0.98)),
+  url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/tndr2-368x276.png);
+  background-repeat: no-repeat;
+  margin-right: 8%;
+}
+
+.gear-tech {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Snag_6162d8-368x276.png);
+  background-repeat: no-repeat;
+  margin-right: 8%;
+}
+
+.tech {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background: url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-368x276.png);
+  background-repeat: no-repeat;
+  margin-right: 8%;
+}
+
+.apps-most-popular {
+  margin-top: 41%;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  padding-left: 4%;
+}
+
+.apps-news-header {
+  padding-left: 4%;
+  margin-top: -4%;
+}
+.apps-news-header a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.apps-news-header a:hover {
+  text-decoration: underline;
+}
+
+.apps-news-ul {
+  list-style: none;
+  display: flex;
+  color: rgb(170, 170, 170);
+  padding-left: 0;
+  margin-top: -2%;
+  padding-left: 4%;
+}
+
+.apps-news-ul li {
+  padding-right: 4%;
+  font-size: 0.8125em;
+}
+.apps-news-ul li a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+} 
+.apps-news-ul li a:hover {
+  text-decoration: none;
+  color: rgb(252, 248, 248);
+} 
+
+/* Styling for latest section */
+
+.latest {
+  margin-top: 0.25%;
+  
+}
+.latest-news-first {
+  grid-column: 1/2;
+  padding-right: 8%;
+}
+
+.latest-news-second {
+  grid-column: 2/3;
+  padding-right: 8%;
+}
+
+.latest-news-third {
+  grid-column: 3/4;
+  padding-right: 8%;
+}
+
+.latest-news-header {
+  background-color: rgba(255, 68, 34, 0.09);
+  color: rgb(255, 68, 34);
+  padding-left: 2%;
+  padding-right:2%;
+  font-size: 13px;
+  margin-bottom: 5%;
+}
+
+.latest-h5 {
+  text-transform: uppercase;
+}
+
+.latest-h4 {
+  margin-top: -6%;
+  padding-bottom: 1%;
+}
+.latest-h4 a {
+  text-decoration: none;
+  color: rgb(255, 68, 34);
+}
+
+.latest-h4 a:hover {
+  text-decoration: underline;
+}
+.latest-ul {
+  margin-left: -5.5%;
+  margin-top: -5%;
+  font-size: 13px;
+  color: rgb(255, 68, 34);
+}
+.latest-ul li {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid rgb(197, 192, 192);
+}
+
+.latest-ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.latest-ul li a:hover {
+  color: #000000;
+}
+
+.latest-ul li a:visted {
+  color: rgb(170, 170, 170);
+}
+
+.latest-container-header {
+  display: flex;
+}
+
+.latest-img {
+
+  background: url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Twitter-Fleets-Featured.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex: 0 0 35%;
+  height: 96px;
+  width: 35%;
 }
