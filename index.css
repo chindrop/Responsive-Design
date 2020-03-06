@@ -1097,7 +1097,7 @@ ul.right-section.items-right {
   flex-flow: row wrap;
   justify-content: center;
   list-style: none;
-  padding-top: 3.8%;
+  padding-top: 4%;
   justify-content: center;
 }
 
@@ -1106,7 +1106,8 @@ ul.right-section.items-right {
   float: row wrap;
   margin-top: 1.5em;
   justify-content: center;
-  padding-top: 1%;
+  align-content: center;
+  padding-top: 1.6%;
 }
 
 .social-links a {
