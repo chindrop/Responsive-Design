@@ -336,25 +336,25 @@ ul.right-section.items-right {
 } 
 
 /* Styling for the latest news section */
-.latest-news {
+.latest-news, .latest-deals {
   padding: 5% 5%;
 }
 
-.latest-news-title {
+.latest-news-title, .latest-deals-title {
   font-size: 150%;
 }
 
-.latest-news-title a {
+.latest-news-title a, .latest-deals-title a {
   text-decoration: none;
   color: rgb(255, 68, 34); 
 }
 
-.latest-news-title a:hover {
+.latest-news-title a:hover, .latest-deals-title a:hover {
   text-decoration: none;
   color: rgb(0, 0, 0); 
 }
 
-.pics-latest-news {
+.pics-latest-news, .pics-latest-deals {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -371,7 +371,6 @@ ul.right-section.items-right {
   margin-right: 8%;
   
 }
-
 
 .latest-news-2 {
   grid-column: 2/3;
@@ -442,17 +441,17 @@ ul.right-section.items-right {
   margin-top: 70%;
 }
 
-.latest-news-h4 a {
+.latest-news-h4 a, .latest-deals-h4 a {
   text-decoration: none;
   color: #000000;
 }
 
-.latest-news-h4 a:hover {
+.latest-news-h4 a:hover, .latest-deals-h4 a:hover{
   text-decoration: none;
   color: rgb(255, 68, 34);
 }
 
-.latest-news-ul {
+.latest-news-ul, .latest-deals-ul {
   list-style: none;
   display: flex;
   color: rgb(170, 170, 170);
@@ -569,8 +568,8 @@ ul.right-section.items-right {
 .latest-funds-1 .first-div, .latest-funds-2 .first-div-1, .latest-funds-3 .first-div-2, .latest-funds-4 .first-div-3 {
   background-color: #f42;
   font-size: 100%;
-  text-align: center;
   padding-top: 3%;
+  padding-left: 33%;
   padding-bottom: 3%;
 }
 
@@ -583,7 +582,7 @@ ul.right-section.items-right {
   margin-top: -10%;
   background: rgba(255,68,34,.08);
   color: #000000;
-  text-align: center;
+  padding-left: 33%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
@@ -596,7 +595,6 @@ ul.right-section.items-right {
   margin-top: -8%;
   text-transform: uppercase;
   color: rgb(170, 170, 170);
-  text-align: center;
 }
 
 .third-div a, .third-div-1 a, .third-div-2 a, .third-div-3 a {
@@ -604,23 +602,31 @@ ul.right-section.items-right {
   font-size: 90%;
 }
 
-.social-media {
+.investments {
   padding-top: 8%;
   background: rgba(255,68,34,0.03);
 }
 
-.icon-social {
+.icons {
   margin-left: 5%;
 }
 
-.span-social {
+.tag, .briefcase {
+  display: block;
+}
+
+.tag {
+  padding-bottom: 3.5%;
+}
+
+.text-icons {
   margin-left: 3%;
   font-size: 13px;
   color: #555;
   text-decoration: none;
 }
 
-.span-social:hover {
+.span-icons:hover {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
@@ -631,7 +637,7 @@ ul.right-section.items-right {
   border: 1px solid rgba(255,68,34,0.09);;
 }
 
-.social-media-last {
+.latest-funds-last {
   font-size: 12px;
   padding-top: 5%;
   padding-bottom: 20%;
@@ -640,38 +646,38 @@ ul.right-section.items-right {
   font-weight: 400;
 }
 
-.social-media-last a {
+.latest-funds-last a {
   text-decoration: none;
   color: #555;
 }
-.social-media-last-span {
+.latest-funds-last-span {
   color: rgb(170, 170, 170);
 }
 
 /* Styling for the apps gear tech section*/
 
-.apps-gear-tech-title {
+.apps-gear-tech-title, .creative-podium-insights-title {
   display: flex;
   padding: 5% 5%;
 }
 
-.apps-gear-tech-title h2 {
+.apps-gear-tech-title h2, .creative-podium-insights-title h2 {
   font-size: 150%;
   flex-basis: 33.333333%;
 }
 
-.apps-gear-tech-title h2 a {
+.apps-gear-tech-title h2 a, .creative-podium-insights-title h2 a {
   text-decoration: none;
   color: rgb(255, 68, 34); 
 }
 
-.apps-gear-tech-title h2 a:hover {
+.apps-gear-tech-title h2 a:hover, .creative-podium-insights-title h2 a:hover {
   text-decoration: none;
   color: rgb(0, 0, 0); 
 }
 
 
-.apps-gear-tech, .latest {
+.apps-gear-tech, .latest, .creative-podium-insights, .launch-distract {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -681,7 +687,7 @@ ul.right-section.items-right {
   margin-top: -4.5%;
 }
 
-.apps {
+.apps, .creative, .launch {
   grid-column: 1/2;
   grid-row: 1/2;
   background: linear-gradient(180deg, rgba(248, 247, 247, 0.0) , rgba(0, 0, 0, 0.98)),
@@ -690,7 +696,18 @@ ul.right-section.items-right {
   margin-right: 8%;
 }
 
-.gear-tech {
+.creative {
+  background: linear-gradient(180deg, rgba(248, 247, 247, 0.0) , rgba(0, 0, 0, 0.98)),
+  url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg);
+}
+
+.launch {
+  background: linear-gradient(180deg, rgba(248, 247, 247, 0.0) , rgba(0, 0, 0, 0.98)),
+   url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png);
+}
+
+
+.gear-tech, .podium, .distract {
   grid-column: 2/3;
   grid-row: 1/2;
   background: url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Snag_6162d8-368x276.png);
@@ -698,12 +715,28 @@ ul.right-section.items-right {
   margin-right: 8%;
 }
 
-.tech {
+.distract {
+  background: linear-gradient(180deg, rgba(248, 247, 247, 0.0) , rgba(0, 0, 0, 0.98)),
+  url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/OnlyFans-Featured-368x276.jpg);
+}
+
+
+.podium {
+  background: linear-gradient(180deg, rgba(248, 247, 247, 0.0) , rgba(0, 0, 0, 0.98)),
+  url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg)
+}
+
+.tech, .insights {
   grid-column: 3/4;
   grid-row: 1/2;
-  background: url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-368x276.png);
+  background: linear-gradient(180deg, rgba(248, 247, 247, 0.0) , rgba(0, 0, 0, 0.98)), url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-368x276.png);
   background-repeat: no-repeat;
   margin-right: 8%;
+}
+
+.insights {
+  background: linear-gradient(180deg, rgba(248, 247, 247, 0.0) , rgba(0, 0, 0, 0.98)),
+  url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/coronavirus-malware-infect-system-368x276.jpg);
 }
 
 .apps-most-popular {
@@ -833,4 +866,207 @@ ul.right-section.items-right {
   flex: 0 0 35%;
   height: 96px;
   width: 35%;
+}
+
+.latest-img-1 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Sonos-Move-1-of-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex: 0 0 35%;
+  height: 96px; /*96px;*/
+  width: 35%;
+}
+
+.latest-img-2 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex: 0 0 35%;
+  height: 96px;
+  width: 35%;
+}
+
+.latest-img-3 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex: 0 0 35%;
+  height: 96px;
+  width: 35%;
+}
+
+.latest-img-4 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/american-voting.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex: 0 0 35%;
+  height: 96px;
+  width: 35%;
+}
+
+.latest-img-5 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/woman-4509821_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex: 0 0 35%;
+  height: 96px;
+  width: 35%;
+}
+
+.latest-img-6 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/robots.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex: 0 0 35%;
+  height: 96px;
+  width: 35%;
+}
+
+.latest-img-7 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Microsoft-Edge-Surf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex: 0 0 35%;
+  height: 96px;
+  width: 35%;
+}
+
+/* Styling for the latest deals */
+.latest-deals-1 {
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background:  url(https://cdnp3.stackassets.com/ca8ac4cd8e0107c4584d451a1fb0ac0e5ebe6151/store/be0f2ee1b78c4393e1053fa6de7e735a05a2c49710da62971b1193c1a649/sale_26370_primary_image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+}
+
+.latest-deals-2 {
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background:  url(https://cdnp2.stackassets.com/fc8076524b9a819dc598d65691c2299a5db60352/store/ad46d05f16cdde540433ef7b885a4ea4ea9b8cf95d7560be9ac3290c10fe/sale_26449_primary_image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+}
+
+.latest-deals-3 {
+  position: relative;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background:  url(https://cdnp2.stackassets.com/3c13f10f74c095314df532568d210203f3df5b63/store/26e4fdf4bbbb46a77c2163f35ddbfa2a6034e4e6a4cefd42aceebb6375a0/sale_26324_primary_image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+}
+.latest-deals-4 {
+  position: relative;
+  grid-column: 4/5;
+  grid-row: 1/2;
+  background: url(https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+}
+
+.latest-deals-5 {
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background: url(https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+}
+
+.latest-deals-6 {
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: url(https://cdnp1.stackassets.com/08d7e2431ae6bfd1f13f6fc4c0d6970a7d603912/store/22fea2154e1b93d8ec2d0c6622d4c848e68ec3df1d5d27a63a1e283daaa3/sale_26374_primary_image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+}
+
+.latest-deals-7 {
+  position: relative;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background: url(https://cdnp1.stackassets.com/c80121459c194c189c69893dd70ede917733b848/store/ee611f43e23784d3d04caca02f49f80efac26b80672f17d376d7ef461c6c/sale_26368_primary_image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+}
+
+.latest-deals-8 {
+  position: relative;
+  grid-column: 4/5;
+  grid-row: 2/3;
+  background: url(https://cdnp0.stackassets.com/a875072fa31f35279ce85438b376249c54eca996/store/8534f1826bec31d741297d74ee8a30edc0f492f8f74cd08aa4ed0103d42a/sale_14523_primary_image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+}
+
+.background-discount {
+  position: absolute;
+  top: 0;
+  right:0;
+  z-index: 1;
+  width: 80px;
+  overflow: hidden;
+
+}
+.discount {
+  text-transform: uppercase;
+  background-size: contain;
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  top: 26px;
+  left: 103px;
+  transform: rotate(45deg);
+  width: 100%;
+  font-size: 14px;
+  font-size: 700;
+  z-index: 2;
+}
+
+.deal {
+  margin-top: -3.5%;
+  color: rgb(85, 85, 85);
+}
+
+.deal .old-price {
+  margin-right: 1.5%;
+  text-decoration: line-through;
+  font-size: 13px;
+  color: rgb(170, 170, 170);
+}
+
+
+.latest-deals-h4 {
+  margin-top: 70%;
+}
+
+.no-discount {
+  margin-top: 77.5%;
 }
