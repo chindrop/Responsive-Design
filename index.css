@@ -845,6 +845,8 @@ header[class$="-title"] h2 a:hover::after {
   font-size:0.813em;
   margin-bottom: 5%;
   height: 7.5em;
+  width: 100%;
+  max-height: 96px;
 }
 
 .latest-h5 {
