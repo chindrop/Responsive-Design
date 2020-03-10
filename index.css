@@ -1191,7 +1191,50 @@ header[class$="-title"] h2 {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1296px) {
+
+/* Second header styling - nav bar and search bar section */
+  .nav-bar {
+    font-size: 0.7em;
+  }
+
+  .nav-bar-ul li,
+  .search-bar-ul li {
+    padding-right: 0.50em;
+
+  }
+
+  .nav-bar-ul {
+    padding-left: 1.0%;
+  }
+
+  .search-bar-ul  {
+    padding-left: 2%;
+    width: 35%;
+  }
+
+  .join-btn {
+    padding: 6% 0.75em;
+    border-radius: 3px;
+    font-size: 0.7em;
+  }
+
+  .search-bar-txt {
+    font-size: 70%;
+    margin-right: 0.2em;
+  }
+
+
+  .days {
+    font-size: 82%;
+  }
+
+  .search-icon {
+    margin-right: 2.5%;
+  }
+
+}
+@media only screen and (max-width: 1160px) {
   .latest-news-h4 {
     margin-top: 101%;
   }
@@ -1273,5 +1316,29 @@ header[class$="-title"] h2 {
   }
   .latest-deals .no-discount {
     margin-top: 111.5%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .latest {
+    margin-top: 1.8%;  
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .small-right-1 h2 {
+    padding-bottom: 10%;
+  }
+}
+
+
+@media only screen and (max-width: 975px) {
+  .latest-news-1, .latest-news-2, .latest-news-3, .latest-news-4 {
+    background-size: 100% 57%;
+  }
+
+  .latest.apps-gear-tech-latest {
+    margin-top: 2.8%;
   }
 }
