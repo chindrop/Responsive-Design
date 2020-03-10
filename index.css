@@ -11,7 +11,7 @@ html {
 
 body {
   overflow-x: hidden;
-  max-width: 1440px;
+  max-width: 90.000em;
   margin: 0 auto;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 100%;
@@ -1188,4 +1188,90 @@ header[class$="-title"] h2 {
 
 .fa-heart {
   color: red;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1024px) {
+  .latest-news-h4 {
+    margin-top: 101%;
+  }
+  .latest-funds {
+    padding: 15% 5%;
+  }
+
+  .latest-funds-1 .first-div, .latest-funds-2 .first-div-1, .latest-funds-3 .first-div-2, .latest-funds-4 .first-div-3 {
+    padding-left: 40%;
+  }
+
+  .latest-funds-1 .second-div, .latest-funds-2 .second-div-1,  .latest-funds-3 .second-div-2, .latest-funds-4 .second-div-3 {
+    padding-left: 40%;
+
+  }
+
+  .latest {
+    margin-top: 2%;  
+  }
+
+
+  .latest-ul {
+    margin-left: -5.5%;
+    margin-top: 4%;
+    font-size: 0.813em;
+    color: rgb(255, 68, 34);
+  }
+  
+  .latest-h5 {
+    text-transform: uppercase;
+  }
+
+  .latest-container-header {
+    padding-bottom: 28%;
+    display: flex;
+    justify-content: space-between;
+    max-height: 96px;
+    margin-top: -5%;
+    background-color: rgba(255, 68, 34, 0.09);
+    color: rgb(255, 68, 34);
+  }
+  .latest-news-first, .latest-news-second{
+    padding-right: 2%;
+  }
+
+  .apps, .gear-tech, .launch, .distract, .creative, .podium {
+    margin-right: 2%;
+  }
+
+  .creative-podium-insights-title, .launch-distract-title {
+    padding: 10% 5%;
+    margin-bottom: -8%;
+    
+  }
+
+  .apps-gear-tech-title {
+    margin-top: -8%;
+  }
+
+  .latest-deals {
+    padding: 12% 5%;
+  }
+
+  .latest-deals .latest-deals-h4 {
+      margin-top: 102%;
+  }
+
+  .latest-deals-right {
+    margin-bottom: -2%;
+  }
+
+  .discount {
+    left: 5.438em;
+  }
+
+  .latest-deals-1, .latest-deals-2, .latest-deals-3, .latest-deals-4, .latest-deals-4, .latest-deals-5, .latest-deals-6, .latest-deals-7, .latest-deals-8 {
+  margin-bottom: 16%;
+
+  }
+  .latest-deals .no-discount {
+    margin-top: 111.5%;
+  }
 }
