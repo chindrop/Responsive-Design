@@ -1191,6 +1191,7 @@ header[class$="-title"] h2 {
 }
 
 /* Media Queries */
+
 @media only screen and (max-width: 1296px) {
 
 /* Second header styling - nav bar and search bar section */
@@ -1201,7 +1202,6 @@ header[class$="-title"] h2 {
   .nav-bar-ul li,
   .search-bar-ul li {
     padding-right: 0.50em;
-
   }
 
   .nav-bar-ul {
@@ -1260,21 +1260,12 @@ header[class$="-title"] h2 {
     margin-left: -5.5%;
     margin-top: 4%;
     font-size: 0.813em;
-    color: rgb(255, 68, 34);
-  }
-  
-  .latest-h5 {
-    text-transform: uppercase;
   }
 
   .latest-container-header {
     padding-bottom: 28%;
-    display: flex;
-    justify-content: space-between;
     max-height: 96px;
     margin-top: -5%;
-    background-color: rgba(255, 68, 34, 0.09);
-    color: rgb(255, 68, 34);
   }
   .latest-news-first, .latest-news-second{
     padding-right: 2%;
@@ -1299,7 +1290,7 @@ header[class$="-title"] h2 {
   }
 
   .latest-deals .latest-deals-h4 {
-      margin-top: 102%;
+    margin-top: 102%;
   }
 
   .latest-deals-right {
