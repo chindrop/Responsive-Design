@@ -1407,6 +1407,10 @@ header[class$="-title"] h2 {
     background-size: 100% 57%;
   }
 
+  .latest-ul {
+    margin-top: 10%;
+  }
+
   .latest.apps-gear-tech-latest {
     margin-top: 2.8%;
   }
