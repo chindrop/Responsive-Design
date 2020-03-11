@@ -962,7 +962,6 @@ header[class$="-title"] h2 a:hover::after {
 .latest-h4 {
   margin-top: -6%;
   padding-bottom: 1%;
-  display: block;
 }
 
 .latest-ul {
@@ -1427,6 +1426,14 @@ header[class$="-title"] h2 {
   .small-right-1 h2 {
     padding-bottom: 32%;
   }
+  .latest-h5 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+
+  .latest-h4 {
+    font-size: 0.8em;
+  }
   .latest-news-1,
   .latest-news-2,
   .latest-news-3,
@@ -1447,6 +1454,10 @@ header[class$="-title"] h2 {
   .latest-deals-7,
   .latest-deals-8 {
     background-size: 100% 60%;
+  }
+
+  .latest-deals {
+    padding: 20% 5%;
   }
 
   .latest-news-ul {
