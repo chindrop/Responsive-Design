@@ -1412,7 +1412,17 @@ header[class$="-title"] h2 {
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
+  .gear {
+    margin-top: -2.2em;
+  }
+  .first-section-txt {
+    margin-top: -0.25em;
+  }
+
+  .small-right-1 h2 {
+    padding-bottom: 32%;
+  }
   .latest-news-1,
   .latest-news-2,
   .latest-news-3,
@@ -1472,5 +1482,20 @@ header[class$="-title"] h2 {
   .discount {
     top: 2.95em;
     font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 823px) {
+  .search-bar-ul {
+    width: 8%;
+  }
+  .search-bar-ul li:not(:first-child) {
+    display: none;
+    
+  }
+
+  .search-icon {
+    position: relative;
+    top: 30%;
   }
 }
