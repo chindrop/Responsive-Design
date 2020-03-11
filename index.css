@@ -450,6 +450,7 @@ ul.right-section.items-right {
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   letter-spacing: 0.04em;
+  font: inherit;
   margin-left: 3%;
   padding-top: 3.125em;
   padding-bottom: 0.125em;
