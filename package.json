@@ -5,13 +5,13 @@
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {
-    "stylelint": "^13.2.0",
+    "stylelint": "^13.2.1",
     "stylelint-config-recommended": "^3.0.0"
   },
   "scripts": {
     "lint": " npx stylelint ./index.css",
     "lint-fix": "npx stylelint --fix index.css",
-    "html-validator": "npx html-validator-cli --quiet --file index.html",
+    "html-validator": "npx html-validator-cli --verbose --file index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
