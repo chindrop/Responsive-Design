@@ -106,6 +106,12 @@ body {
   padding: 0.625em;
 }
 
+.latest-news-h4 a,
+.latest-deals-h4 a {
+  text-decoration: none;
+  color: #000;
+}
+
 .left-section li a,
 .right-section li a {
   text-decoration: none;
