@@ -444,9 +444,6 @@ ul.right-section.items-right {
 }
 
 .small-right-2 h5 {
-  font-size: 1.75em;
-  font-weight: 700;
-  line-height: 1.3125em;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   letter-spacing: 0.04em;
@@ -1425,22 +1422,22 @@ header[class$="-title"] h2 {
   .latest-news-7,
   .latest-news-8 {
     background-size: 100% 50%;
-}
+  }
 
-.latest-deals-1,
-.latest-deals-2,
-.latest-deals-3,
-.latest-deals-4,
-.latest-deals-5,
-.latest-deals-6,
-.latest-deals-7,
-.latest-deals-8 {
-  background-size: 100% 60%;
-}
+  .latest-deals-1,
+  .latest-deals-2,
+  .latest-deals-3,
+  .latest-deals-4,
+  .latest-deals-5,
+  .latest-deals-6,
+  .latest-deals-7,
+  .latest-deals-8 {
+    background-size: 100% 60%;
+  }
 
-.latest-news-ul {
-  font-size: 0.7em;
-}
+  .latest-news-ul {
+    font-size: 0.7em;
+  }
 
   .latest-funds-title {
     display: block;
@@ -1466,17 +1463,14 @@ header[class$="-title"] h2 {
   .latest-funds-3 .second-div-2,
   .latest-funds-4 .second-div-3 {
     padding-left: 46%;
-  } 
-
+  }
 
   .latest.launch-distract-latest {
     margin-top: 2.2%;
   }
 
-
   .discount {
     top: 2.95em;
     font-size: 0.7em;
   }
-
 }
