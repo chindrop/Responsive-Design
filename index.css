@@ -496,6 +496,7 @@ header[class$="-title"] h2 a::after {
   content: "";
   background: url(images/arrow.svg);
   background-size: 16px 16px;
+  background-repeat: no-repeat;
   position: relative;
   top: 0;
   display: inline-block;
@@ -506,6 +507,7 @@ header[class$="-title"] h2 a::after {
 
 header[class$="-title"] h2 a:hover::after {
   background: url(images/arrow-hover.svg);
+  background-repeat: no-repeat;
 }
 
 .latest-deals-title {
@@ -515,7 +517,7 @@ header[class$="-title"] h2 a:hover::after {
 
 .latest-deals-right {
   display: inline-block;
-  padding-top: 2.5%;
+  padding-top: 5.5%;
   padding-right: 2.4%;
   font-size: 1em;
 }
@@ -1394,6 +1396,12 @@ header[class$="-title"] h2 {
   }
 }
 
+@media only screen and (max-width: 980px) {
+  .join-btn {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 975px) {
   .latest-news-1,
   .latest-news-2,
@@ -1405,4 +1413,70 @@ header[class$="-title"] h2 {
   .latest.apps-gear-tech-latest {
     margin-top: 2.8%;
   }
+}
+
+@media only screen and (max-width: 850px) {
+  .latest-news-1,
+  .latest-news-2,
+  .latest-news-3,
+  .latest-news-4,
+  .latest-news-5,
+  .latest-news-6,
+  .latest-news-7,
+  .latest-news-8 {
+    background-size: 100% 50%;
+}
+
+.latest-deals-1,
+.latest-deals-2,
+.latest-deals-3,
+.latest-deals-4,
+.latest-deals-5,
+.latest-deals-6,
+.latest-deals-7,
+.latest-deals-8 {
+  background-size: 100% 60%;
+}
+
+.latest-news-ul {
+  font-size: 0.7em;
+}
+
+  .latest-funds-title {
+    display: block;
+  }
+
+  .latest-funds-right {
+    margin-left: -6%;
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+  }
+
+  .latest-funds-1 .first-div,
+  .latest-funds-2 .first-div-1,
+  .latest-funds-3 .first-div-2,
+  .latest-funds-4 .first-div-3 {
+    padding-left: 46%;
+    font-size: 79%;
+  }
+
+  .latest-funds-1 .second-div,
+  .latest-funds-2 .second-div-1,
+  .latest-funds-3 .second-div-2,
+  .latest-funds-4 .second-div-3 {
+    padding-left: 46%;
+  } 
+
+
+  .latest.launch-distract-latest {
+    margin-top: 2.2%;
+  }
+
+
+  .discount {
+    top: 2.95em;
+    font-size: 0.7em;
+  }
+
 }
