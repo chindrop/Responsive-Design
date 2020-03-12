@@ -1407,12 +1407,13 @@ header[class$="-title"] h2 {
   }
 
   .latest-ul {
-    margin-top: 20%;
+    /* margin-top: 20%; */
   }
 
   .latest.apps-gear-tech-latest {
     margin-top: 2.8%;
   }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -1434,6 +1435,7 @@ header[class$="-title"] h2 {
   .latest-h4 {
     font-size: 0.8em;
   }
+
   .latest-news-1,
   .latest-news-2,
   .latest-news-3,
@@ -1513,4 +1515,86 @@ header[class$="-title"] h2 {
     position: relative;
     top: 30%;
   }
+
+  .latest.creative-podium-insights-latest {
+    margin-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 746px) {
+  .first-section {
+    display: inline-block;
+  }
+
+  .small-right-1, .small-right-2  {
+    padding: 0% 0;
+    margin-left: 0;
+    margin-top: -0.75%;
+  }
+
+  .small-right-2 {
+    margin-top: -2.75%;
+  }
+
+  .pics-latest-news,
+  .pics-latest-deals {
+    position: relative;
+    display: inline-block;
+    float: left;
+    height: 1500px;
+
+  }
+
+  .latest-news-1,
+  .latest-news-2,
+  .latest-news-3,
+  .latest-news-4,
+  .latest-news-5,
+  .latest-news-6,
+  .latest-news-7,
+  .latest-news-8 {
+    background-size: 30% 60%;
+    height: 200px;
+    margin-top: -34em;
+    min-height: 200px;
+    padding-left: 88px;
+    position: relative;
+  }
+
+  .latest-news-h4, .latest-news-ul {
+    position: relative;
+    left: 20%;
+  }
+
+  .latest-funds {
+    padding: 20% 5%;
+  }
+
+  .pics-latest-funds {
+    display: inline-block;
+  }
+
+  .latest-funds-1, .latest-funds-2, .latest-funds-3, .latest-funds-4 {
+    width: 740px;
+    max-width: 740px;
+  }
+
+  .latest-funds-1 .first-div, .latest-funds-2 .first-div-1, .latest-funds-3 .first-div-2, .latest-funds-4 .first-div-3 {
+    padding-left: 15%;
+}
+
+  .latest-funds-1 .second-div,
+  .latest-funds-2 .second-div-1,
+  .latest-funds-3 .second-div-2,
+  .latest-funds-4 .second-div-3 {
+    padding-left: 15%;
+    margin-top: -2.3%;
+    line-height: 10px;
+
+  }
+
+  .latest-funds-4 {
+    display: none;
+  }
+
 }
