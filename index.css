@@ -17,6 +17,8 @@ body {
   font-size: 100%;
   font-weight: 400;
   line-height: 1.125em;
+  height: 100%;
+  padding: 0;
 }
 
 /* First header styling */
@@ -50,8 +52,12 @@ body {
   color: rgb(255, 68, 34);
 }
 
-.latest-funds-left a,
-.latest-funds-right a {
+.latest-funds-left a, .latest-funds-right a {
+  text-decoration: none;
+  color: rgb(255, 68, 34);
+}
+
+.latest-deals-right {
   text-decoration: none;
   color: rgb(255, 68, 34);
 }
@@ -155,13 +161,6 @@ body {
   color: rgb(170, 170, 170);
 }
 
-.apps-gear-tech-title h2 a,
-.creative-podium-insights-title h2 a,
-.launch-distract-title h2 a {
-  text-decoration: none;
-  color: rgb(255, 68, 34);
-}
-
 .apps-news-ul li a {
   text-decoration: none;
   color: rgb(170, 170, 170);
@@ -196,6 +195,11 @@ body {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
+.latest-deals-left a:hover, .latest-deals-right:hover {
+  color: rgb(0, 0, 0);
+}
+
 
 .apps-news-header a:hover {
   text-decoration: underline;
@@ -489,7 +493,7 @@ ul.right-section.items-right {
   padding: 5% 5%;
 }
 
-header[class$="-title"] h2 a::after {
+[class$="-title"] a::after {
   content: "";
   background: url(images/arrow.svg);
   background-size: 16px 16px;
@@ -502,19 +506,19 @@ header[class$="-title"] h2 a::after {
   margin-left: 0.25em;
 }
 
-header[class$="-title"] h2 a:hover::after {
+[class$="-title"] a:hover::after {
   background: url(images/arrow-hover.svg);
   background-repeat: no-repeat;
 }
 
-.latest-deals-title {
+.latest-deals-header {
   display: flex;
   justify-content: space-between;
 }
 
 .latest-deals-right {
   display: inline-block;
-  padding-top: 5.5%;
+  padding-top: 2.5%;
   padding-right: 2.4%;
   font-size: 1em;
 }
@@ -632,16 +636,15 @@ header[class$="-title"] h2 a:hover::after {
   padding: 5% 5%;
 }
 
-.latest-funds-title {
+.latest-funds-header {
   display: flex;
   justify-content: space-between;
 }
 
 .latest-funds-right {
-  width: 35%;
+  width: 45%;
   list-style: none;
   display: inline-block;
-  padding-top: 1.5%;
 }
 
 .latest-funds-right li {
@@ -791,113 +794,158 @@ header[class$="-title"] h2 a:hover::after {
   color: rgb(170, 170, 170);
 }
 
-/* Styling for the apps gear tech section */
-
-.apps-gear-tech-title,
-.creative-podium-insights-title,
-.launch-distract-title {
-  display: flex;
-  padding: 5% 5%;
-}
-
-.apps-gear-tech-title h2,
-.creative-podium-insights-title h2,
-.launch-distract-title h2 {
-  flex-basis: 33.333333%;
-}
-
-.apps-gear-tech-title h2 a:hover,
-.creative-podium-insights-title h2 a:hover,
-.launch-distract-title h2 a:hover {
+/* Styling for the apps latest section */
+.apps-latest-title a {
   text-decoration: none;
+  color: rgb(255, 68, 34);
+}
+
+.apps-latest-title a:hover {
   color: rgb(0, 0, 0);
 }
 
-.apps-gear-tech,
-.latest,
-.creative-podium-insights,
-.launch-distract {
+.apps-latest {
+  padding: 5% 5%;
+  height: 2400px;
+  max-height: 2400px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  height: 17.25em;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-top: -4.5%;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
-.apps,
-.creative,
-.launch {
+.apps-latest-news {
+ 
   grid-column: 1/2;
   grid-row: 1/2;
+}
+
+.gear-latest-news {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+
+.tech-latest-news {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+
+.creative-latest-news {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+
+.podium-latest-news {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+
+.insights-latest-news {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+
+.launch-latest-news {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+
+.distract-latest-news {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.apps,
+.gear-tech,
+.tech,
+.creative,
+.podium,
+.insights,
+.launch,
+.distract {
+  margin-right: 8%;
+  max-height: 300px;
+  height: 300px;
+}
+
+.apps {
   background:
-    linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
-    url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/tndr2-368x276.png);
+  linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
+  url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/tndr2-368x276.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 8%;
+}
+
+.gear-tech {
+  background:
+    linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
+    url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Snag_6162d8-368x276.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tech {
+  background: linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
+   url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-368x276.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .creative {
   background:
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg);
-}
-
-.launch {
-  background:
-    linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png);
-}
-
-.gear-tech,
-.podium,
-.distract {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  background:
-    linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
-    url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Snag_6162d8-368x276.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-right: 8%;
-}
-
-.distract {
-  background:
-    linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/OnlyFans-Featured-368x276.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .podium {
   background:
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg);
-}
-
-.tech,
-.insights {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  background: linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)), url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-368x276.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 8%;
 }
+
 
 .insights {
   background:
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/coronavirus-malware-infect-system-368x276.jpg);
-}
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+.launch {
+  background:
+    linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.distract {
+  background:
+    linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/OnlyFans-Featured-368x276.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .apps-most-popular {
-  margin-top: 41%;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   line-height: 1.313em;
   padding-left: 4%;
+  padding-top: 45%;
+
 }
 
 .apps-news-header {
@@ -923,23 +971,9 @@ header[class$="-title"] h2 a:hover::after {
 
 /* Styling for latest section */
 
-.latest {
-  margin-top: 1.8%;
-}
-
-.latest-news-first {
-  grid-column: 1/2;
+.latest-news-first, .latest-news-second, .latest-news-third {
   padding-right: 8%;
-}
-
-.latest-news-second {
-  grid-column: 2/3;
-  padding-right: 8%;
-}
-
-.latest-news-third {
-  grid-column: 3/4;
-  padding-right: 8%;
+  margin-top: 2%;
 }
 
 .latest-news-header {
@@ -1207,7 +1241,6 @@ header[class$="-title"] h2 {
 .footer-links {
   background: #131313;
   height: 10.625em;
-  margin: 0 auto;
   margin-top: 9%;
 }
 
@@ -1246,7 +1279,9 @@ header[class$="-title"] h2 {
 /* Media Queries */
 
 @media only screen and (max-width: 1296px) {
+
   /* Second header styling - nav bar and search bar section */
+  
   .nav-bar {
     font-size: 0.7em;
   }
@@ -1308,46 +1343,6 @@ header[class$="-title"] h2 {
     padding-left: 40%;
   }
 
-  .latest {
-    margin-top: 3%;
-  }
-
-  .latest-ul {
-    margin-left: -5.5%;
-    margin-top: 4%;
-    font-size: 0.813em;
-  }
-
-  .latest-container-header {
-    padding-bottom: 28%;
-    max-height: 96px;
-    margin-top: -5%;
-  }
-
-  .latest-news-first,
-  .latest-news-second {
-    padding-right: 2%;
-  }
-
-  .apps,
-  .gear-tech,
-  .launch,
-  .distract,
-  .creative,
-  .podium {
-    margin-right: 2%;
-  }
-
-  .creative-podium-insights-title,
-  .launch-distract-title {
-    padding: 15% 5%;
-    margin-bottom: -8%;
-  }
-
-  .apps-gear-tech-title {
-    margin-top: -8%;
-  }
-
   .latest-deals {
     padding: 12% 5%;
   }
@@ -1381,9 +1376,90 @@ header[class$="-title"] h2 {
 }
 
 @media only screen and (max-width: 1024px) {
-  .latest {
-    margin-top: 1.8%;
+
+  .latest-funds-4 {
+    display: none;
   }
+}
+
+@media only screen and (max-width: 1023px) {
+  
+  .pics-latest-news,
+  .pics-latest-deals {
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 46.875em;
+    padding-top: 1.5%;
+    margin-bottom: 8%;
+  }
+  .latest-news-4, .latest-deals-4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .latest-news-5, .latest-deals-5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .latest-news-6, .latest-deals-6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .latest-news-7, .latest-deals-7 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+    .latest-news-8, .latest-deals-8 {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .apps-latest {
+      height: 3200px;
+      max-height: 3200px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .tech-latest-news {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .creative-latest-news {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+    .podium-latest-news {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .insights-latest-news {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .launch-latest-news {
+      grid-column: 1/2;
+      grid-row: 4/5;
+    }
+    .distract-latest-news {
+      grid-column: 2/3;
+      grid-row: 4/5;
+    }
+    .discount {
+      left: 7.438em;
+      top:1.5em;
+    }
+    .footer-links {
+      margin-top: 44%;
+    }
+
+    .latest-news-h4 {
+      margin-top: 71%;
+    }
+  .latest-funds {
+    padding: 8% 5%;
+  }
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1404,14 +1480,6 @@ header[class$="-title"] h2 {
   .latest-news-3,
   .latest-news-4 {
     background-size: 100% 57%;
-  }
-
-  .latest-ul {
-    /* margin-top: 20%; */
-  }
-
-  .latest.apps-gear-tech-latest {
-    margin-top: 2.8%;
   }
 
 }
@@ -1466,7 +1534,7 @@ header[class$="-title"] h2 {
     font-size: 0.7em;
   }
 
-  .latest-funds-title {
+  .latest-funds-header {
     display: block;
   }
 
@@ -1497,7 +1565,7 @@ header[class$="-title"] h2 {
   }
 
   .discount {
-    top: 2.95em;
+    top: 1.95em;
     font-size: 0.7em;
   }
 }
@@ -1516,12 +1584,9 @@ header[class$="-title"] h2 {
     top: 30%;
   }
 
-  .latest.creative-podium-insights-latest {
-    margin-top: 4%;
-  }
 }
 
-@media only screen and (max-width: 746px) {
+@media only screen and (max-width: 767px) {
   .first-section {
     display: inline-block;
   }
@@ -1542,6 +1607,8 @@ header[class$="-title"] h2 {
     display: inline-block;
     float: left;
     height: 1500px;
+    max-height: 1500px;
+    margin:0 auto;
 
   }
 
@@ -1554,12 +1621,38 @@ header[class$="-title"] h2 {
   .latest-news-7,
   .latest-news-8 {
     background-size: 30% 60%;
-    height: 200px;
-    margin-top: -34em;
-    min-height: 200px;
+    height: 300px;
+    margin-top: -30em;
+    min-height: 300px;
     padding-left: 88px;
     position: relative;
   }
+
+  .latest-deals-1,
+  .latest-deals-2,
+  .latest-deals-3,
+  .latest-deals-4,
+  .latest-deals-5,
+  .latest-deals-6,
+  .latest-deals-7,
+  .latest-deals-8 {
+    background-size: 30% 60%;
+    height: 300px;
+    min-height: 300px;
+    margin-top: -10em;
+    padding-left: 88px;
+    position: relative;
+  }
+
+  .background-discount {
+    right: 377px;
+    top:-2px;
+  }
+
+  .discount {
+    left: -177px;
+  }
+
 
   .latest-news-h4, .latest-news-ul {
     position: relative;
@@ -1575,8 +1668,8 @@ header[class$="-title"] h2 {
   }
 
   .latest-funds-1, .latest-funds-2, .latest-funds-3, .latest-funds-4 {
-    width: 740px;
-    max-width: 740px;
+    width: 690px;
+    max-width: 690px;
   }
 
   .latest-funds-1 .first-div, .latest-funds-2 .first-div-1, .latest-funds-3 .first-div-2, .latest-funds-4 .first-div-3 {
@@ -1590,11 +1683,105 @@ header[class$="-title"] h2 {
     padding-left: 15%;
     margin-top: -2.3%;
     line-height: 10px;
+  }
+  .latest-apps {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .apps-most-popular {
+    padding-top: 30%;
+  }
+
+  .latest-h5 {
+    margin-bottom: 8%;
+  }
+
+  .apps-latest-news {
+    grid-column: span 2;
+    grid-row: 1/2;
+  }
+
+  .gear-latest-news {
+    grid-column: span 2;
+    grid-row: 2/3;
+  }
+
+  .tech-latest-news {
+    grid-column: span 2;
+    grid-row: 3/4;
+  }
+
+  .creative-latest-news {
+    grid-column: span 2;
+    grid-row: 4/5;
+  }
+
+  .podium-latest-news {
+    grid-column: span 2;
+    grid-row: 5/6;
+  }
+
+  .insights-latest-news {
+    grid-row: 6/7;
+    grid-column: span 2;
+  }
+
+  .launch-latest-news {
+    grid-column: span 2;
+    grid-row: 7/8;
+  }
+
+  .distract-latest-news {
+    grid-column: span 2;
+    grid-row: 8/9;
+  }
+
+  .latest-deals {
+    position: relative;
+    padding-top: 340%;
+    padding: 340% 5%;
+    /* padding-bottom: 330%; */
+    margin: 0 auto;
+    /* overflow: hidden; */
+    top: 10em;
 
   }
 
-  .latest-funds-4 {
-    display: none;
+  .latest-deals-h4, .deal {
+    position: relative;
+    left: 20%;
+    top: -160%;
   }
+  .latest-deals-4 .deal {
+    left: 20%;
+    top: -160%;
+  }
+
+  .latest-deals .no-discount {
+    position: relative;
+    top: 0;
+}
+
+.deal.no-discount {
+  position: relative;
+  top: -160%;
+}
+
+.latest-deals-4 {
+  margin-top: -35em;
+}
+.latest-deals-header {
+  display: inline-block;
+  position: relative;
+  top:-12em; 
+}
+
+.footer-links {
+  clear: both;
+  margin-top: -79%;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
 
 }
