@@ -1319,7 +1319,7 @@ header[class$="-title"] h2 {
     margin-right: 2.5%;
   }
 }
-
+/* 
 @media only screen and (max-width: 1160px) {
   .latest-news-h4 {
     margin-top: 101%;
@@ -1373,7 +1373,7 @@ header[class$="-title"] h2 {
   .latest-deals .no-discount {
     margin-top: 111.5%;
   }
-}
+} */
 
 @media only screen and (max-width: 1024px) {
 
@@ -1474,7 +1474,7 @@ header[class$="-title"] h2 {
   }
 }
 
-@media only screen and (max-width: 975px) {
+/* @media only screen and (max-width: 975px) {
   .latest-news-1,
   .latest-news-2,
   .latest-news-3,
@@ -1568,7 +1568,7 @@ header[class$="-title"] h2 {
     top: 1.95em;
     font-size: 0.7em;
   }
-}
+} */
 
 @media only screen and (max-width: 823px) {
   .search-bar-ul {
@@ -1750,11 +1750,7 @@ header[class$="-title"] h2 {
   .latest-deals-h4, .deal {
     position: relative;
     left: 20%;
-    top: -160%;
-  }
-  .latest-deals-4 .deal {
-    left: 20%;
-    top: -160%;
+    top: -113%;
   }
 
   .latest-deals .no-discount {
@@ -1778,7 +1774,7 @@ header[class$="-title"] h2 {
 
 .footer-links {
   clear: both;
-  margin-top: -79%;
+  /* margin-top: -79%; */
   margin-bottom: 0;
   overflow: hidden;
 }
