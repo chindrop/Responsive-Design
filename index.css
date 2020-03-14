@@ -315,14 +315,7 @@ ul.right-section.items-right {
 }
 
 .tnw-img {
-  /* display: none; */
-
-  /* display: block;
-    height: 16px;
-    position: relative;
-    width: 66px;
-    will-change: transform;
-    z-index: 999; */
+  display: none;
 }
 
 .nav-bar-ul li a:hover {
