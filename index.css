@@ -1872,5 +1872,22 @@ header[class$="-title"] h2 {
     .header-1 {
       display: none;
     }
+
+    .small-right-1 h2 {
+      padding-bottom: 15%;
+      padding-left: 2%;
+    }
+
+    .small-right-2 h5 {
+      padding-top: 0.125em;
+      margin-left: 2%;
+    }
+
+    .small-right-2 h2 {
+      padding-left: 2%;
+    }
+    .small-right-list {
+      padding-left: 2%;
+    }
   }
 }
