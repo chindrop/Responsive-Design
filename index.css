@@ -1677,8 +1677,6 @@ header[class$="-title"] h2 {
       grid-row: 1/2;
       background-size: 25%;
       display: inline-block;
-
-      /* margin-top: -6%; */
     }
 
     .latest-news-2 {
@@ -1686,8 +1684,6 @@ header[class$="-title"] h2 {
       grid-row: 2/3;
       background-size: 25%;
       display: inline-block;
-
-      /* margin-top: -12%; */
     }
 
     .latest-news-3 {
@@ -1695,8 +1691,6 @@ header[class$="-title"] h2 {
       grid-row: 3/4;
       background-size: 25%;
       display: inline-block;
-
-      /* margin-top: -20%; */
     }
 
     .latest-news-4 {
@@ -1704,10 +1698,6 @@ header[class$="-title"] h2 {
       grid-row: 4/5;
       background-size: 25%;
       display: inline-block;
-
-      /* margin-top: -25%; */
-
-      /* top: 0; */
     }
 
     .latest-news-5 {
@@ -1715,10 +1705,6 @@ header[class$="-title"] h2 {
       grid-row: 5/6;
       background-size: 25%;
       display: inline-block;
-
-      /* margin-top: -25%; */
-
-      /* top: 0; */
     }
 
     .latest-news-6 {
@@ -1726,10 +1712,6 @@ header[class$="-title"] h2 {
       grid-row: 6/7;
       background-size: 25%;
       display: inline-block;
-
-      /* margin-top: -25%; */
-
-      /* top: 0; */
     }
 
     .latest-news-7 {
@@ -1737,10 +1719,6 @@ header[class$="-title"] h2 {
       grid-row: 7/8;
       background-size: 25%;
       display: inline-block;
-
-      /* margin-top: -30%; */
-
-      /* top: 0; */
     }
 
     .latest-news-8 {
@@ -1748,19 +1726,7 @@ header[class$="-title"] h2 {
       grid-row: 8/9;
       background-size: 25%;
       display: inline-block;
-
-      /* margin-top: -30%; */
-
-      /* margin-top: 10%; */
-
-      /* top: 0; */
     }
-
-    /* .latest-news-h4,
-    .latest-news-ul {
-      position: relative;
-      left: 20%;
-    } */
 
     .latest-news-h4 {
       position: relative;
