@@ -1187,7 +1187,7 @@ ul.right-section.items-right {
   text-align: center;
   color: rgb(0, 0, 0);
   top: 1.625em;
-  left: 7.438em;
+  left: 8.438em;
   transform: rotate(45deg);
   width: 100%;
   font-size: 0.875em;
@@ -1273,10 +1273,9 @@ header[class$="-title"] h2 {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1379px) {
   .discount {
-   left: 8.438em;
-  }
+    left: 7.7em;
 }
 
 @media only screen and (max-width: 1296px) {
