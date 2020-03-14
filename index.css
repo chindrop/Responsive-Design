@@ -1273,6 +1273,12 @@ header[class$="-title"] h2 {
 
 /* Media Queries */
 
+@media only screen and (max-width: 1600px) {
+  .discount {
+   left: 8.438em;
+  }
+}
+
 @media only screen and (max-width: 1296px) {
 
   /* Second header styling - nav bar and search bar section */
@@ -1331,6 +1337,21 @@ header[class$="-title"] h2 {
 
   .latest-funds-4 {
     display: none;
+  }
+
+  .latest-news-1,
+  .latest-news-2,
+  .latest-news-3,
+  .latest-news-4,
+  .latest-news-5,
+  .latest-news-6,
+  .latest-news-7,
+  .latest-news-8 {
+    background-size: 100% 50%;
+  }
+
+  .deal {
+    top: -15.5%;
   }
 }
 
@@ -1447,6 +1468,53 @@ header[class$="-title"] h2 {
 
 }
 
+@media only screen and (max-width: 768px) {
+
+  .latest-funds-header {
+    display: block;
+  }
+  .gear {
+    padding-top: 1.8em;
+  }
+
+  .small-right-1 h2 {
+    padding-bottom: 49%;
+  }
+
+  .discount {
+    left: 5.438em;
+  }
+
+  .latest-funds-1 img, .latest-funds-2 img, .latest-funds-3 img, .latest-funds-4 img {
+    left: -3%;
+    width: 49px;
+    min-width: 49px;
+    max-width: 49px;
+    height: 49px;
+    min-height: 49px;
+    max-height: 49px;
+  }
+
+
+  .latest-funds-1 .first-div, .latest-funds-2 .first-div-1, .latest-funds-3 .first-div-2, .latest-funds-4 .first-div-3 {
+    padding-left: 40%;
+    font-size: 13px;
+  }
+
+  .latest-funds-1 .second-div, .latest-funds-2 .second-div-1, .latest-funds-3 .second-div-2, .latest-funds-4 .second-div-3 {
+    padding-left: 40%;
+    font-size: 13px;
+  }
+
+  .latest-funds-right {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+}
+
+
 @media only screen and (max-width: 767px) {
   .first-section {
     display: inline-block;
@@ -1470,7 +1538,6 @@ header[class$="-title"] h2 {
     height: 1500px;
     max-height: 1500px;
     margin:0 auto;
-
   }
   .pics-latest-deals {
     display: grid;
@@ -1487,9 +1554,6 @@ header[class$="-title"] h2 {
     grid-row: 1/2;
     background-size: 20%;
     display: inline-block;
-    /* padding-bottom: 0%;
-    padding-top: 0%;
-    margin-top: 3%; */
   }
   .latest-deals-2 {
     grid-column: span 1;
@@ -1627,7 +1691,7 @@ header[class$="-title"] h2 {
 
   .latest-funds-1 .first-div, .latest-funds-2 .first-div-1, .latest-funds-3 .first-div-2, .latest-funds-4 .first-div-3 {
     padding-left: 15%;
-}
+  }
 
   .latest-funds-1 .second-div,
   .latest-funds-2 .second-div-1,
