@@ -1245,6 +1245,8 @@ html {
     background: #131313;
     height: 10.625em;
     margin-top: 9%;
+    width: 100%;
+    overflow: hidden;
   }
   
   .social-links {
@@ -1253,6 +1255,8 @@ html {
     justify-content: center;
     list-style: none;
     padding-top: 4%;
+    height: 100%;
+    width: 100%;
   }
   
   .menu-links {
@@ -1842,7 +1846,11 @@ html {
     }
 
     footer {
-       padding-top: 45%;
+       padding-top: 65%;
+       height: 100%;
+       width: 100%;
+       overflow: hidden;
+
     }
   
     .nav-bar-ul li:not(:first-child) {
@@ -1864,7 +1872,7 @@ html {
       padding-left: 2%;
       margin-top: 2em;
       height: 4em;
-      width: 35%;
+      width: 30%;
       overflow: hidden;
 
     }
@@ -1923,7 +1931,12 @@ html {
     }
   }
 
-  
+  @media only screen and (max-width: 418px) { 
+    .deal {
+      padding-top: 5%;
+    }
+    
+  }
   
   
   
