@@ -14,7 +14,7 @@ This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:
 
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://rawcdn.githack.com/chindrop/Responsive-Design/d3181321e48f1d8d69ef0f7b8e727cda706a22d2/index.html)
 
 ## Authors
 
