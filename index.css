@@ -819,8 +819,6 @@ html {
   
   .apps-latest {
     padding: 5% 5%;
-    /* height: 150em; */
-    /* max-height: 160em; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -1737,7 +1735,6 @@ html {
     .latest-news-1, .latest-news-2, .latest-news-3, .latest-news-4, .latest-news-5, .latest-news-6,
     .latest-news-7, .latest-news-8 {
       position: relative;
-      /* height: 60%; */
       height: 100%;
       width: 100%;
       overflow: hidden;
@@ -1750,9 +1747,7 @@ html {
       position: relative;
       float: right;
       width: 70%;
-      /* height: 85%; */
       overflow: hidden;
-      /* margin-top: -2.5%; */
     padding-top: 2%;
     }
   
@@ -1853,20 +1848,48 @@ html {
     .nav-bar-ul li:not(:first-child) {
       display: none;
     }
+    .nav-bar {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .nav-bar-ul {
+      width: 40%;
+      height: 100%;
+      overflow: hidden;
+    }
   
     .search-bar-ul {
       padding-left: 2%;
       margin-top: 2em;
       height: 4em;
-      width: 13%;
+      width: 60%;
+      overflow: hidden;
+
+    }
+
+    .search-bar-ul {
+      float: right;
+      padding-right: 10%;
+      
+    }
+
+    .nav-bar::after{
+      clear: both;
+    }
+
+    .search-icon {
+      margin-right: 16%;
+      margin-left: 6%;
     }
   
     .tnw-img {
       display: block;
-      position: relative;
+      position: fixed;
       left: -0.625em;
       top: -0.25em;
-      height: 46px;
+      height: 49px;
       width: 12%;
     }
   
