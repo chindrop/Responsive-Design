@@ -356,7 +356,6 @@ html {
   /* third section header styling */
   .fixed-header {
     background-color: #ff0;
-    max-height: 2em;
     padding: 0.5% 1.55%;
     font-size: 0.8125em;
     font-weight: 500;
@@ -664,9 +663,6 @@ html {
     display: inline-block;
   }
 
-  .latest-funds-left {
-      margin-top: 20%;
-  }
   
   .latest-funds-right li {
     display: inline-block;
@@ -1445,10 +1441,6 @@ html {
       top: 1.5em;
     }
   
-    .footer-links {
-      margin-top: 44%;
-    }
-  
     .latest-news-h4 {
       margin-top: 71%;
     }
@@ -1544,6 +1536,9 @@ html {
   }
   
   @media only screen and (max-width: 767px) {
+    .latest-funds-left, .latest-funds-right {
+      margin-top: 20%;
+  }
     .latest-funds-1 img,
     .latest-funds-2 img,
     .latest-funds-3 img,
@@ -1657,7 +1652,7 @@ html {
       position: relative;
       float: right;
       width: 70%;
-      height: 90%;
+      height: 100%;
     }
 
     .deal {
@@ -1874,7 +1869,6 @@ html {
       height: 4em;
       width: 30%;
       overflow: hidden;
-
     }
 
     .search-bar-ul {
@@ -1894,11 +1888,12 @@ html {
   
     .tnw-img {
       display: block;
-      position: fixed;
-      left: -0.625em;
+      position: absolute;
+      left: 0;
       top: -0.25em;
-      height: 49px;
+      height: 48px;
       width: 12%;
+      z-index: 999;
     }
   
     i.fas.fa-bars {
@@ -1931,12 +1926,47 @@ html {
     }
   }
 
+  @media only screen and (max-width: 500px) {
+    .latest-deals-h4 {
+      top: 31%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) { 
+    .footer-links {
+      margin-top: 44%;
+    }
+    
+  }
   @media only screen and (max-width: 418px) { 
     .deal {
       padding-top: 5%;
     }
+    .latest-funds-header {
+      margin-top: 10%;
+  }
     
   }
+
+  @media only screen and (max-width: 413px) {
+    .latest-news-h4, .latest-news-ul {
+      padding-top: 0%;
+    }
+    .latest-deals-h4 {
+      top: 20%;
+    }
+    
+    .deal {
+      padding-top: 7%;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .fixed-header {
+      padding: 0;
+      font-size: 12px;
+    }
+  }
+  
   
   
   
