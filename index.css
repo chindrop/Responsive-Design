@@ -370,6 +370,7 @@ i.fas.fa-bars {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+
   /* height: 31.25em; */
   padding: 0.25% 0.5%;
 }
@@ -1338,8 +1339,8 @@ header[class$="-title"] h2 {
     left: 5.5em;
   }
 }
-@media only screen and (max-width: 1163px) {
 
+@media only screen and (max-width: 1163px) {
   .latest-news-1,
   .latest-news-2,
   .latest-news-3,
@@ -1361,13 +1362,15 @@ header[class$="-title"] h2 {
     width: 100%;
     margin-left: -5%;
   }
+
   .latest-funds-4 {
     display: none;
   }
+
   .pics-latest-funds {
-    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr;
   }
-  
+
   .deal {
     top: -15.5%;
   }
@@ -1377,14 +1380,17 @@ header[class$="-title"] h2 {
   .search-bar-ul li:not(:first-child):not(:last-child) {
     display: none;
   }
+
   .search-bar-ul {
     width: 7%;
     padding-left: 2%;
     padding-top: 2%;
-}
+  }
+
   .nav-bar-ul {
     padding-left: 12%;
-}
+  }
+
   .tnw-img {
     display: block;
     position: absolute;
@@ -1515,8 +1521,7 @@ header[class$="-title"] h2 {
 }
 
 @media only screen and (max-width: 768px) {
-
-  .menu-icon{
+  .menu-icon {
     position: absolute;
     top: 15%;
     left: 90%;
@@ -1527,8 +1532,7 @@ header[class$="-title"] h2 {
     top: 44%;
     left: 80%;
     margin-right: 8%;
-}
-
+  }
 
   .gear {
     padding-top: 1.8em;
@@ -1580,11 +1584,11 @@ header[class$="-title"] h2 {
 }
 
 @media only screen and (max-width: 767px) {
-
   .first-section {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
   }
+
   .large-left {
     grid-row: 1/2;
   }
@@ -1592,9 +1596,12 @@ header[class$="-title"] h2 {
   .small-right-1 {
     grid-row: 2/3;
   }
+
   .small-right-2 {
     grid-row: 3/4;
+    padding-top: 2.5%;
   }
+
   .first-section-txt {
     font-size: 1.75em;
     font-weight: 700;
@@ -1604,29 +1611,33 @@ header[class$="-title"] h2 {
     padding-left: 2%;
     margin-top: -2%;
   }
+
   .inline-list {
     padding-top: 4%;
     padding-bottom: 2%;
   }
+
   .small-right-list {
     padding-top: 1%;
     padding-bottom: 2%;
+    padding-left: 2%;
   }
-  .tnw-logo, #date, .small-right-2 h5 {
+
+  .tnw-logo,
+  #date,
+  .small-right-2 h5 {
     display: none;
   }
 
-  .small-right-2 {
-    padding-top: 2.5%;
-  }
   .wrap span {
     display: block;
     text-align: center;
   }
 
-  .latest-news, .latest-deals {
+  .latest-news,
+  .latest-deals {
     padding: 5% 1.5%;
-}
+  }
 
   .latest-funds-left,
   .latest-funds-right {
@@ -1648,10 +1659,6 @@ header[class$="-title"] h2 {
     min-height: 60px;
     max-height: 60px;
     margin: 0.688em;
-  }
-
-  .first-section {
-    display: inline-block;
   }
 
   .small-right-1,
@@ -1858,17 +1865,24 @@ header[class$="-title"] h2 {
     display: block;
   }
 
-  article[class^="latest-news-"], div[class^="latest-deals-"], article[class^="latest-deals-"] {
+  article[class^="latest-news-"],
+  div[class^="latest-deals-"],
+  article[class^="latest-deals-"] {
     background-size: 11% 88.2%;
   }
 
-  div[class^="latest-deals-"], article[class^="latest-deals-"] {
+  div[class^="latest-deals-"],
+  article[class^="latest-deals-"] {
     padding-top: 0;
     padding-bottom: 0;
     overflow: hidden;
   }
 
-  .latest-deals-4, .latest-deals-5,.latest-deals-6, .latest-deals-7, .latest-deals-8 {
+  .latest-deals-4,
+  .latest-deals-5,
+  .latest-deals-6,
+  .latest-deals-7,
+  .latest-deals-8 {
     top: 0;
   }
 
@@ -2027,21 +2041,21 @@ header[class$="-title"] h2 {
     padding-left: 2%;
     padding-top: 4%;
   }
-
-  .small-right-list {
-    padding-left: 2%;
-  }
 }
 
 @media only screen and (max-width: 500px) {
   .latest-deals-h4 {
     top: 31%;
   }
-  article[class^="latest-news-"], div[class^="latest-deals-"], article[class^="latest-deals-"] {
+
+  article[class^="latest-news-"],
+  div[class^="latest-deals-"],
+  article[class^="latest-deals-"] {
     background-size: 16% 88.2%;
   }
 
-  .latest-news-h4, .latest-news-ul {
+  .latest-news-h4,
+  .latest-news-ul {
     font-size: 80%;
     width: 82%;
   }
@@ -2058,7 +2072,6 @@ header[class$="-title"] h2 {
     top: 6em;
   }
 }
-
 
 @media only screen and (max-width: 418px) {
   .deal {
@@ -2078,12 +2091,11 @@ header[class$="-title"] h2 {
   .menu-links {
     position: relative;
     top: 5.5em;
-    
   }
+
   .social-links {
     height: 61%;
   }
-  
 }
 
 @media only screen and (max-width: 413px) {
