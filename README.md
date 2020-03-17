@@ -12,6 +12,19 @@ This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:
 - HTML5 
 - CSS3
 
+## Description
+
+The task was to clone the [original page](https://thenextweb.com/).
+
+This project is mainly about
+
+-  Responsive Design in Web Design.
+We tried to make the page to look the same on different viewport sizes by using
+    - Resizable images
+    - Media queries
+    - Flexible Grids
+
+
 ## Live Demo
 
 [Live Demo](https://rawcdn.githack.com/chindrop/Responsive-Design/d3181321e48f1d8d69ef0f7b8e727cda706a22d2/index.html)
