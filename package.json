@@ -3,25 +3,25 @@
   "version": "1.0.0",
   "description": "This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc",
   "main": "index.html",
-  "dependencies": {
-    "stylelint": "^13.2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^13.2.1",
     "stylelint-config-recommended": "^3.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "lint": " npx stylelint ./index.css",
     "lint-fix": "npx stylelint --fix index.css",
-    "html-validator": "npx html-validator-cli --quiet --file index.html",
+    "html-validator": "npx html-validator-cli --verbose --file index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bluette1/design-teardown.git"
+    "url": "git+https://github.com/chindrop/Responsive-Design.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bluette1/design-teardown/issues"
+    "url": "https://github.com/chindrop/Responsive-Design/issues"
   },
-  "homepage": "https://github.com/Bluette1/design-teardown#readme"
+  "homepage": "https://github.com/chindrop/Responsive-Design#readme"
 }
