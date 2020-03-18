@@ -2126,98 +2126,100 @@ footer {
     left: 87%;
   }
 
-.apps,
-.gear-tech,
-.tech,
-.creative,
-.podium,
-.insights,
-.launch,
-.distract {
-  height: 13.75em;
-}
-
-@media only screen and (max-width: 425px) {
-  .menu-links {
-    top: 6em;
-  }
-}
-
-@media only screen and (max-width: 418px) {
-  .deal {
-    padding-top: 5%;
+  .apps,
+  .gear-tech,
+  .tech,
+  .creative,
+  .podium,
+  .insights,
+  .launch,
+  .distract {
+    height: 13.75em;
   }
 
-  .latest-funds-header {
-    margin-top: 10%;
-  }
-}
-
-@media only screen and (max-width: 413px) {
-  .latest-news-h4,
-  .latest-news-ul {
-    padding-top: 0%;
+  @media only screen and (max-width: 425px) {
+    .menu-links {
+      top: 6em;
+    }
   }
 
-  .latest-deals-h4 {
-    top: 20%;
+  @media only screen and (max-width: 418px) {
+    .deal {
+      padding-top: 5%;
+    }
+
+    .latest-funds-header {
+      margin-top: 10%;
+    }
   }
 
-  .deal {
-    padding-top: 7%;
-  }
-}
+  @media only screen and (max-width: 413px) {
+    .latest-news-h4,
+    .latest-news-ul {
+      padding-top: 0%;
+    }
 
-@media only screen and (max-width: 409px) {
-  .first-section {
-    margin-top: -4%;
-  }
+    .latest-deals-h4 {
+      top: 20%;
+    }
 
-  .footer-links {
-    height: 15.625em;
-  }
-
-  .menu-links {
-    position: relative;
-    top: 5.5em;
+    .deal {
+      padding-top: 7%;
+    }
   }
 
-  .small-right-1 h2 {
-    padding-bottom: 20%;
+  @media only screen and (max-width: 409px) {
+    .first-section {
+      margin-top: -4%;
+    }
+
+    .footer-links {
+      height: 15.625em;
+    }
+
+    .menu-links {
+      position: relative;
+      top: 5.5em;
+    }
+
+    .small-right-1 h2 {
+      padding-bottom: 20%;
+    }
+
+    .social-links {
+      height: 61%;
+    }
   }
 
-  .social-links {
-    height: 61%;
-  }
-}
+  @media only screen and (max-width: 350px) {
+    .fixed-header {
+      padding: 0;
+      font-size: 0.75em;
+    }
 
-@media only screen and (max-width: 350px) {
-  .fixed-header {
-    padding: 0;
-    font-size: 0.75em;
-  }
+    .first-section {
+      margin-top: -4.75%;
+    }
 
-  .first-section {
-    margin-top: -4.75%;
-  }
+    .apps,
+    .gear-tech,
+    .tech,
+    .creative,
+    .podium,
+    .insights,
+    .launch,
+    .distract {
+      height: 12.75em;
+    }
 
-.apps,
-.gear-tech,
-.tech,
-.creative,
-.podium,
-.insights,
-.launch,
-.distract {
-  height: 12.75em;
-}
+    @media only screen and (min-width: 1700px) {
+      .latest-deals-h4 {
+        top: 47%;
+      }
 
-@media only screen and (min-width: 1700px) {
-  .latest-deals-h4 {
-    top: 47%;
-  }
-
-  .deal {
-    top: -22.5%;
+      .deal {
+        top: -22.5%;
+      }
+    }
   }
 }
