@@ -46,12 +46,6 @@ body {
   color: #fff;
 }
 
-.latest-news-title a,
-.latest-deals-title a {
-  text-decoration: none;
-  color: rgb(255, 68, 34);
-}
-
 .latest-funds-left a,
 .latest-funds-right a {
   text-decoration: none;
@@ -114,7 +108,12 @@ body {
   color: #000;
 }
 
-.apps-latest-title a {
+[class$="-right"] a {
+  text-decoration: none;
+  color: rgb(255, 68, 34);
+}
+
+[class$="-title"] a {
   text-decoration: none;
   color: rgb(255, 68, 34);
 }
@@ -179,12 +178,6 @@ body {
   font-size: 0.75em;
 }
 
-.latest-news-title a:hover,
-.latest-deals-title a:hover {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-}
-
 .latest-news-h4 a:hover,
 .latest-deals-h4 a:hover {
   text-decoration: none;
@@ -199,7 +192,8 @@ body {
 
 .latest-deals-right {
   text-decoration: none;
-  color: rgb(255, 68, 34);
+
+  /* color: rgb(255, 68, 34); */
   display: inline-block;
   padding-top: 2.5%;
   padding-right: 2.4%;
@@ -219,7 +213,7 @@ body {
   text-decoration: underline;
 }
 
-.apps-latest-title a:hover {
+[class$="-title"] a:hover {
   color: rgb(0, 0, 0);
 }
 
