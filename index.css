@@ -872,8 +872,7 @@ i.fas.fa-bars {
 .launch,
 .distract {
   margin-right: 8%;
-  max-height: 18.75em;
-  height: 18.75em;
+  height: 23.75em;
 }
 
 .apps {
@@ -881,6 +880,7 @@ i.fas.fa-bars {
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/tndr2-368x276.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -889,6 +889,7 @@ i.fas.fa-bars {
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Snag_6162d8-368x276.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -897,6 +898,7 @@ i.fas.fa-bars {
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-368x276.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -905,6 +907,7 @@ i.fas.fa-bars {
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -913,6 +916,7 @@ i.fas.fa-bars {
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -921,6 +925,7 @@ i.fas.fa-bars {
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/coronavirus-malware-infect-system-368x276.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -929,6 +934,7 @@ i.fas.fa-bars {
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -937,6 +943,7 @@ i.fas.fa-bars {
     linear-gradient(180deg, rgba(248, 247, 247, 0), rgba(0, 0, 0, 0.98)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/OnlyFans-Featured-368x276.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -1248,8 +1255,6 @@ footer {
 .footer-links {
   background: #131313;
   height: 10.625em;
-
-  /* margin-top: 9%; */
   width: 100%;
   overflow: hidden;
 }
@@ -1871,7 +1876,7 @@ footer {
     margin-left: -3.5%;
   }
 
-  article[class^="latest-news-"],
+  .pics-latest-news article[class^="latest-news-"],
   div[class^="latest-deals-"],
   article[class^="latest-deals-"] {
     background-size: 11% 88.2%;
@@ -2120,6 +2125,16 @@ footer {
   .menu-icon {
     left: 87%;
   }
+
+.apps,
+.gear-tech,
+.tech,
+.creative,
+.podium,
+.insights,
+.launch,
+.distract {
+  height: 13.75em;
 }
 
 @media only screen and (max-width: 425px) {
@@ -2185,6 +2200,16 @@ footer {
   .first-section {
     margin-top: -4.75%;
   }
+
+.apps,
+.gear-tech,
+.tech,
+.creative,
+.podium,
+.insights,
+.launch,
+.distract {
+  height: 12.75em;
 }
 
 @media only screen and (min-width: 1700px) {
