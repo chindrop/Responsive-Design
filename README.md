@@ -27,7 +27,7 @@ We tried to make the page to look the same on different viewport sizes by using
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/chindrop/Responsive-Design/d3181321e48f1d8d69ef0f7b8e727cda706a22d2/index.html)
+[Live Demo](https://rawcdn.githack.com/chindrop/Responsive-Design/72be911eaf3d5a813244d859f0cf30bbbada2d47/index.html)
 
 ## Authors
 
