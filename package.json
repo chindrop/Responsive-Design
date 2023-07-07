@@ -5,7 +5,7 @@
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {
-    "stylelint": "^13.2.1",
+    "stylelint": "^15.10.1",
     "stylelint-config-recommended": "^3.0.0"
   },
   "scripts": {
